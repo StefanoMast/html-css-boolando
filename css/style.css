@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.container1 {
+    width: auto;
+    margin: 0;
+}
+
+.item {
+   display: inline-block;
+   width: calc(100%/3 - 3px);
+   position: relative;
+}
+
+.heart {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background-color: white;
+    padding: 5px;
+}
+
+img {
+    width: 100%;
+}
+
+span {
+    display: inline-block;
+}
